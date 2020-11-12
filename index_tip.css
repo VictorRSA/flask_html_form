@@ -1,0 +1,8 @@
+body{
+    background-color: powderblue;
+}
+label {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+}

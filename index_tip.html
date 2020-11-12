@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="200">
+    <meta name="Author:" content="Victor Nkuna">
+
+    <script src="index_tip.js"></script>
+    <link href="index_tip.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tip calculator landing page</title>
+    <style>
+        body{
+            background-color: powderblue;
+        }
+    </style>
+</head>
+<body onload="">  <!--it will do something if the body loads in the  USER-AGENT-->
+    <form id ="firstname_lastname" method="POST" action={{url_for('index_tip.html')}}><br>
+        <p id="demo">We going to ask you few question about the Vintech Eatery</p><br />
+
+         <p>First Name:</p><input  type="text" placeholder="Enter your first name..."><br>
+
+         <p>Last name:</p><input type="text" placeholder="Enter your last name"><br />
+
+   
+    
+
+            
+        <label for="bill_view"> How Much was your bill:</label><br />
+        <input type="text"  id="bill" name="How was much was your restarant" placeholder="please enter the tip amount"><br />
+        <label for="service-rating">How was your service?</label><br/>
+        <textarea id="service" name="service-ranking" rows=8 cols="50" placeholder="please rate the service..."></textarea><br/>
+        <p>Display Tip:</p><input type="text" id="display-tip"><br />
+        <input type="submit"  value = "Submit the Review">
+
+    
+
+    </form>
+    
+
+
+    
+</body>
+</html>
